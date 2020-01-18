@@ -1,0 +1,470 @@
+$color1: #ffca6f;
+$color2: #195670;
+$color3: #0b224d;
+
+/*----------------------------------------*/
+/* Common
+/*----------------------------------------*/
+html,
+body {
+  height: 100%;
+  font-family: '微軟正黑體', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 500;
+  color: #131313;
+}
+
+
+h1{
+  font-size: 34px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+h4{
+  font-size: 24px;
+}
+
+h5{
+  font-size: 20px;
+}
+
+h6{
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+}
+
+hr.divider-white {
+  max-width: 13rem;
+  border-width: 0.2rem;
+  border-color: white;
+}
+hr.divider-cyan {
+  max-width: 13rem;
+  border-width: 0.2rem;
+  border-color: #00ffff;
+}
+
+hr.divider {
+  max-width: 6rem;
+  border-width: 0.2rem;
+  border-color: $color1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.bg-gray {
+  background-color: #2b2d2f;
+}
+
+.bg-yellow {
+  background-color: #ffa200;
+  z-index: 2;
+}
+
+.bg-blue {
+	background-color: $color2;
+}
+
+.bg-darkblue {
+	background-color: $color3;
+}
+
+.page-section{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.text-yellow{
+  color: #ffa200;
+}
+.text-black{
+  color: #000;
+}
+.text-blue{
+  color: $color2
+}
+.text-cyan{
+  color: #00ffff
+}
+
+/*------------------
+  Logo section
+---------------------*/
+img.logo{
+	width: 200px;
+}
+
+/*------------------
+  Header section
+---------------------*/
+.top-section {
+  background: #131313;
+}
+.header-section {
+  background: #131313;
+  clear: both;
+  overflow: hidden;
+  padding: 18px 0;
+}
+
+.bg-header{
+  background-size: cover;
+  background-image: url(../images/maya-t5.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  // max-height: 800px;
+  min-height: 800px;
+  overflow: hidden;
+}
+
+.header-img1 {
+  position: relative;
+  bottom: -30px;
+  z-index: 1;
+  margin-left: -70px;
+}
+.header-img2 {
+  position: relative;
+  bottom: -30px;
+  z-index: 1;
+}
+.header-icon i{
+	width: 36px;
+	height: 36px;
+  font-size: 32px;
+	line-height: 40px;
+}
+
+/*------------------
+  Problem section
+---------------------*/
+.bg-problem{
+  
+  background-image: url("../images/bg_problem.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: relative;
+}
+
+.problem-content {
+  background-image: linear-gradient(180deg,rgb(15, 99, 138) 0%, 
+  rgba(11, 2, 55, 0.25) 80%,
+  rgba(15, 6, 89, 0.21) 100%), 
+  url(../images/pattern_blue.png);
+  background-repeat: repeat;
+
+  height: 180px;
+  border: 3px solid;
+  border-color: #ffa200;
+
+}
+
+/*------------------
+  Teacher section
+---------------------*/
+
+.bg-teacher{
+  background-image: url('../images/bg_teacher.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: relative;
+}
+
+/*------------------
+  Class section
+---------------------*/
+
+.bg-class-1{
+  background-color:  #fff3de;
+}
+
+.bg-class-2{
+  background-color:  #ffe7b7;
+}
+
+.border-blue {
+  border-top-color: $color2;
+  border-bottom-color: $color2;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-top-width: 3px;
+  border-top-style: solid;
+  padding: 12px;
+  
+}
+
+.clTitle {
+  position: absolute;
+  font-size: 17px;
+  font-weight: 500;
+  z-index: 3;
+}
+
+.clContent {
+  // height: 90px;
+  background: $color1;
+  padding: 30px;
+	z-index: 1
+}
+
+
+.class-cate-icon i{
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+}
+
+.class-title {
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-bottom: 0; 
+  line-height: 1.3;
+  padding: 20px;
+  background-color: $color2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.class-content {
+color: white;
+font-size: 16px;
+line-height: 1.5;
+padding: 28px;
+background-color: $color2;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+height: 150px;
+}
+
+/*------------------
+  Student section
+---------------------*/
+.bg-student{
+  background-image: url('../images/bg_student.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: relative;
+}
+
+
+/*------------------
+  Learned section
+---------------------*/
+.learned-icon i{
+	width: 30px;
+	height: 30px;
+  font-size: 25px;
+  color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
+.learned-content {
+  font-size: 18px;
+  font-weight: 500;
+  }
+
+.learned img {
+	width: 100%
+}
+
+/*------------------
+  Contact section
+---------------------*/
+.bg-contact{
+  background-image: url('../images/bg_contact.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: relative;
+}
+
+.contact-img {
+  img {
+    margin-bottom: 35px;
+  }
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2% 0 0 0;
+  margin: 0 auto;
+}
+
+.submit-btn{
+  display: inline-block;
+  font-size: 20px;
+	font-weight: 500;
+	color: #1b1b1b;
+	text-align: center;
+	vertical-align: middle;
+
+	border: 1px solid transparent;
+	padding: 0.375rem 0.75rem;
+	line-height: 1.5;
+	border-radius: 0.25rem;
+
+	background-color: #ffa200;
+	border-color: #ffa200;
+}
+
+/*------------------
+  Footer section
+---------------------*/
+
+.footer-section{
+  padding: 18px 0 16px;
+  overflow: hidden;
+  background: #df2012;
+  background: -webkit-linear-gradient(#fb5043,#df2012 65%);
+	background: -o-linear-gradient(#fb5043,#df2012 65%);
+	background: -moz-linear-gradient(#fb5043,#df2012 65%);
+	background: linear-gradient(#fb5043,#df2012 65%);
+}
+
+.footer-content {
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.8;
+	margin-top: 40px;
+}
+
+
+
+
+/*------------------
+  Responsive
+---------------------*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1176px;
+  }
+
+  .header-section {
+    padding: 23px 0;
+    // height: 600px;
+    min-height: 760px;
+  }
+  .header-img1 {
+    position: relative;
+    max-width: 500px;
+    bottom: -140px;
+    z-index: 1;
+  }
+  .header-img2 {
+    position: relative;
+    max-width: 500px;
+    bottom: -140px;
+    margin-right: 200px;
+    z-index: 1;
+  }
+}
+
+
+/* Medium screen : 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .header-section {
+    padding: 23px 0;
+    min-height: 560px;
+  }
+  .header-img1 {
+    bottom: -50px;
+    max-width: 400px;
+    margin-left: -100px;
+  }
+  .header-img2 {
+    bottom: -50px;
+    max-width: 450px;
+    
+  }
+
+
+}
+
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-section {
+    padding: 23px 0;
+    // max-height: 560px
+    min-height: 500px;
+  }
+
+  .header-img2 {
+    bottom: 120px;
+    max-width: 300px;
+    margin-right: 30px;
+  }
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+  .header-section {
+    padding: 23px 0;
+    min-height: 360px;
+  }
+
+  .header-img2 {
+    bottom: 60px;
+    max-width: 200px;
+    margin-right: -10px;
+  }
+  .footer-section {
+    padding: 30px 0 20px;
+    text-align: center;
+  }
+
+}
+
+/* Medium Mobile :480px. */
+@media only screen and (max-width: 576px){
+  .header-section {
+    padding: 23px 0;
+    min-height: 245px;
+  }
+
+  .header-img2 {
+    bottom: 60px;
+    max-width: 200px;
+    margin-right: 70px;
+  }
+
+}
+
+/* Small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+
+
+}
